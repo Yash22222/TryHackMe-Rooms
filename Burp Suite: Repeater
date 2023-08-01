@@ -1,6 +1,113 @@
-<p><img src="https://tryhackme-images.s3.amazonaws.com/room-icons/e80908cf9848084e2347c2988ef6c0e7.png" alt="" width="42" height="42"> This is some text.</p>
-
 Burp Suite: Repeater
    
 Learn how to use Repeater to duplicate requests in Burp Suite
+
+Task 1  Introduction Outline
+Deploy the machine (and the AttackBox if you are not using your own attack VM), and let's get started!
+Note: If you are not using the AttackBox and want to connect to this machine without the VPN, you can do so using this link once the machine has fully loaded and an IP address is displayed: https://LAB_WEB_URL.p.thmlabs.com.
+
+= No answer needed
+
+Task 2  Repeater What is Repeater?
+Familiarise yourself with the Repeater interface.
+= No answer needed
+
+Task 3  Repeater Basic Usage
+Capture a request to http://MACHINE_IP in the Proxy and send it to Repeater.
+Practice modifying and re-sending the request numerous times.
+
+= No answer needed
+
+Task 4  Repeater Views
+Experiment with the available view options.
+
+= No answer needed
+Which view option displays the response in the same format as your browser would?
+
+= Render
+
+Task 5  Repeater Inspector
+Get comfortable with Inspector and practice adding/removing items from the various request sections.
+
+= No answer needed
+
+Task 6  Practical Example
+Capture a request to http://MACHINE_IP/ in the Proxy and send it to Repeater.
+
+= No answer needed
+Send the request once from Repeater -- you should see the HTML source code for the page you requested in the response tab.
+
+Try viewing this in one of the other view options (e.g. Rendered).
+
+= No answer needed
+
+Using Inspector (or manually, if you prefer), add a header called FlagAuthorised and set it to have a value of True. e.g.:
+
+Headers with FlagAuthorised Added
+GET / HTTP/1.1
+Host: MACHINE_IP
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+FlagAuthorised: True
+Send the request. What is the flag you receive?
+
+= THM{Yzg2MWI2ZDhlYzdlNGFiZTUzZTIzMzVi}
+
+Task 7  Practical Challenge
+Capture a request to one of the numeric products endpoints in the Proxy, then forward it to Repeater.
+
+= No answer needed
+
+See if you can get the server to error out with a "500 Internal Server Error" code by changing the number at the end of the request to extreme inputs.
+
+What is the flag you receive when you cause a 500 error in the endpoint?
+
+= THM{N2MzMzFhMTA1MmZiYjA2YWQ4M2ZmMzhl}
+
+Task 8  Extra Mile SQLi with Repeater
+We know that there is a vulnerability, and we know where it is. Now we just need to exploit it!
+Let's start by capturing a request to http://MACHINE_IP/about/2 in the Burp Proxy. Once you have captured the request, send it to Repeater with Ctrl + R or by right-clicking and choosing "Send to Repeater".
+
+= No answer needed
+Now that we have our request primed, let's confirm that a vulnerability exists. Adding a single apostrophe (') is usually enough to cause the server to error when a simple SQLi is present, so, either using Inspector or by editing the request path manually, add an apostrophe after the "2" at the end of the path and send the request:
+Response Headers from the Server
+GET /about/2' HTTP/1.1
+Host: MACHINE_IP
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+You should see that the server responds with a "500 Internal Server Error", indicating that we successfully broke the query:
+
+Response Headers from the Server
+HTTP/1.1 500 INTERNAL SERVER ERROR<
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 16 Aug 2021 23:05:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 3101
+
+= No answer needed
+
+With this information, we can skip over the query column number and table name enumeration steps.
+
+= No answer needed
+
+Exploit the union SQL injection vulnerability in the site.
+
+What is the flag?
+
+= THM{ZGE3OTUyZGMyMzkwNjJmZjg3Mzk1NjJh}
+
+Task 9  Conclusion Room Conclusion
+
+I can use Burp Suite Repeater!
+
+= No answer needed
 
