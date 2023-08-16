@@ -16,3 +16,6 @@ Try Hack Me Rooms Completed By Me With Answers:-
 3} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/9c8359d213941312199b6142d3421a57.png" alt="THM" width="40" height="40"> 
 <a href="https://tryhackme.com/room/bypassinguac">Bypassing UAC - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Bypassing%20UAC">Answers</a>
 
+
+1} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/14daecc96c42994352f7c244b08335cf.png" alt="THM" width="40" height="40"> 
+<a href="https://tryhackme.com/room/burpsuiterepeater">Burp Suite: Repeater- </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Burp%20Suite:%20Repeater">Answers</a>
