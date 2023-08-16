@@ -12,3 +12,7 @@ Try Hack Me Rooms Completed By Me With Answers:-
 2} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/e1797e301a9626f309686ec927866990.png" alt="THM" width="40" height="40"> 
 <a href="https://tryhackme.com/room/redteamengagements">What is Networking? - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/What%20is%20Networking%3F">Answers</a>
 
+
+3} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/9c8359d213941312199b6142d3421a57.png" alt="THM" width="40" height="40"> 
+<a href="https://tryhackme.com/room/bypassinguac">Bypassing UAC - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Bypassing%20UAC">Answers</a>
+
