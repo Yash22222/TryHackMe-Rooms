@@ -1,6 +1,6 @@
 # TryHackMe-Rooms
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe">
+<img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe"> <script src="https://tryhackme.com/badge/1871064"></script>
 
 Try Hack Me Rooms Completed By Me With Answers:-
 
