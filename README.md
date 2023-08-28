@@ -2,9 +2,6 @@
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe"> 
 
-<img src="https://tryhackme.com/Yash22222/badges/7-day-streak" alt="My TryHackMe Badges">
-
-
 
 Try Hack Me Rooms Completed By Me With Answers:-
 
@@ -21,5 +18,9 @@ Try Hack Me Rooms Completed By Me With Answers:-
 
 3} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/9c8359d213941312199b6142d3421a57.png" alt="THM" width="40" height="40"> 
 <a href="https://tryhackme.com/room/bypassinguac">Bypassing UAC - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Bypassing%20UAC">Answers</a>
+
+
+4} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/3f520838881aee0c6a245ed2d35bb9dc.png" alt="THM" width="40" height="40"> 
+<a href="https://tryhackme.com/room/winadbasics">Active Directory Basics - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Active%20Directory%20Basics">Answers</a>
 
 
