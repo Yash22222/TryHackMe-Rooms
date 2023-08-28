@@ -1,5 +1,7 @@
 # TryHackMe-Rooms
 
+<img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe">
+
 Try Hack Me Rooms Completed By Me With Answers:-
 
 1} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/14daecc96c42994352f7c244b08335cf.png" alt="THM" width="40" height="40"> 
