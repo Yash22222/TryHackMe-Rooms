@@ -2,6 +2,9 @@
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe"> 
 
+<img src="https://tryhackme.com/Yash22222/badges/7-day-streak" alt="My TryHackMe Badges">
+
+
 
 Try Hack Me Rooms Completed By Me With Answers:-
 
