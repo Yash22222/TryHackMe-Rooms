@@ -25,7 +25,7 @@ Try Hack Me Rooms Completed By Me With Answers:-
 
 
 5} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/ea9887327658c30d21fdbcc63a2b9691.png" alt="THM" width="40" height="40"> 
-<a href="https://tryhackme.com/room/solar">Solar, exploiting log4j - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Solar%2C%20Exploiting%20log4j">Answers</a>
+<a href="https://tryhackme.com/room/solar">Solar, Exploiting log4j - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Solar%2C%20Exploiting%20log4j">Answers</a>
 
 
 
