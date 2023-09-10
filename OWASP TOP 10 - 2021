@@ -1,0 +1,213 @@
+OWASP Top 10 - 2021 = TRYHACKME
+
+Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most critical web security risks.
+
+
+⭐ Task 1  Introduction
+Read the above.
+
+-> answer needed
+
+⭐ Task 2  Accessing Machines
+Connect to our network or deploy the AttackBox.
+
+-> No answer needed
+
+⭐ Task 3  1. Broken Access Control
+Read and understand what broken access control is.
+
+-> No answer needed
+
+⭐ Task 4  Broken Access Control (IDOR Challenge)
+Read and understand how IDOR works.
+
+-> No answer needed
+
+Deploy the machine and go to http://MACHINE_IP - Login with the username noot and the password test1234.
+
+-> No answer needed
+
+Look at other users' notes. What is the flag?
+
+-> flag{fivefourthree}
+
+⭐ Task 5  2. Cryptographic Failures
+Read the introduction to Cryptographic Failures and deploy the machine.
+
+-> No answer needed
+
+⭐ Task 6  Cryptographic Failures (Supporting Material 1)
+Read and understand the supporting material on SQLite Databases.
+
+-> No answer needed
+
+⭐ Task 7  Cryptographic Failures (Supporting Material 2)
+Read the supporting material about cracking hashes.
+
+-> No answer needed
+
+⭐ Task 8  Cryptographic Failures (Challenge)
+What is the name of the mentioned directory?
+
+-> /assets
+
+Navigate to the directory you found in question one. What file stands out as being likely to contain sensitive data?
+
+-> webapp.db
+
+Use the supporting material to access the sensitive data. What is the password hash of the admin user?
+
+-> 6eea9b7ef19179a06954edd0f6c05ceb
+
+Crack the hash.
+What is the admin's plaintext password?
+
+-> qwertyuiop
+
+Log in as the admin. What is the flag?
+
+-> THM{Yzc2YjdkMjE5N2VjMzNhOTE3NjdiMjdl}
+
+⭐ Task 9  3. Injection
+I've understood Injection attacks.
+
+-> No answer needed
+
+⭐ Task 10  3.1. Command Injection
+What strange text file is in the website's root directory?
+
+-> drpepper.txt
+
+How many non-root/non-service/non-daemon users are there?
+
+-> 0
+
+What user is this app running as?
+
+-> apache
+
+What is the user's shell set as?
+
+-> /sbin/nologin
+
+What version of Alpine Linux is running?
+
+-> 3.16.0
+
+⭐ Task 11  4. Insecure Design
+Try to reset joseph's password. Keep in mind the method used by the site to validate if you are indeed joseph.
+
+-> No answer needed
+
+What is the value of the flag in joseph's account?
+
+-> THM{Not_3ven_c4tz_c0uld_sav3_U!}
+
+⭐ Task 12  5. Security Misconfiguration
+Navigate to http://MACHINE_IP:86/console to access the Werkzeug console.
+
+-> No answer needed
+
+Use the Werkzeug console to run the following Python code to execute the ls -l command on the server:
+import os; print(os.popen("ls -l").read())
+What is the database file name (the one with the .db extension) in the current directory?
+
+-> todo.db
+
+Modify the code to read the contents of the app.py file, which contains the application's source code. What is the value of the secret_flag variable in the source code?
+
+-> THM{Just_a_tiny_misconfiguration}
+
+⭐ Task 13  6. Vulnerable and Outdated Components
+Read about the vulnerability.
+
+-> No answer needed
+
+⭐ Task 14  Vulnerable and Outdated Components - Exploit
+Read the above!
+
+-> No answer needed
+
+⭐ Task 15  Vulnerable and Outdated Components - Lab
+What is the content of the /opt/flag.txt file?
+
+-> THM{But_1ts_n0t_my_f4ult!}
+
+⭐ Task 16  7. Identification and Authentication Failures
+
+I've understood broken authentication mechanisms.
+
+-> No answer needed
+
+⭐ Task 17  Identification and Authentication Failures Practical
+What is the flag that you found in darren's account?
+
+-> fe86079416a21a3c99937fea8874b667
+
+Now try to do the same trick and see if you can log in as arthur.
+
+-> No answer needed
+
+What is the flag that you found in arthur's account?
+
+-> d9ac0f7db4fda460ac3edeb75d75e16e
+
+⭐ Task 18  8. Software and Data Integrity Failures
+Read the above and continue!
+
+-> No answer needed
+
+⭐ Task 19  Software Integrity Failures
+What is the SHA-256 hash of https://code.jquery.com/jquery-1.12.4.min.js?
+
+-> sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=
+
+⭐ Task 20  Data Integrity Failures
+Try logging into the application as guest. What is guest's account password?
+
+-> guest
+
+What is the name of the website's cookie containing a JWT token?
+
+-> jwt-session
+
+Use the knowledge gained in this task to modify the JWT token so that the application thinks you are the user "admin".
+
+-> No answer needed
+
+What is the flag presented to the admin user?
+
+-> THM{Dont_take_cookies_from_strangers}
+
+⭐ Task 21  9. Security Logging and Monitoring Failures
+What IP address is the attacker using?
+
+->49.99.13.16
+
+What kind of attack is being carried out?
+
+-> Brute Force
+
+⭐ Task 22  10. Server-Side Request Forgery (SSRF)
+Explore the website. What is the only host allowed to access the admin area?
+
+-> localhost
+
+Check the "Download Resume" button. Where does the server parameter point to?
+
+-> secure-file-storage.com
+
+Using SSRF, make the application send the request to your AttackBox instead of the secure file storage. Are there any API keys in the intercepted request?
+
+-> THM{Hello_Im_just_an_API_key}
+
+Going the Extra Mile: There's a way to use SSRF to gain access to the site's admin area. Can you find it? 
+Note: You won't need this flag to progress in the room. You are expected to do some research in order to achieve your goal.
+
+-> No answer needed
+
+⭐ Task 23  What Next?
+Read the above!
+
+-> No answer needed
+
