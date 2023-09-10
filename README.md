@@ -30,7 +30,7 @@ Try Hack Me Rooms Completed By Me With Answers:-
 
 
 7} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/3b2f3af8e836785fe698356264efbb55.png" alt="THM" width="40" height="40"> 
-<a href="https://tryhackme.com/room/owasptop102021">OWASP TOP 10 - 2021 - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/OWASP%20TOP%2010%20-%202021">Answers</a>
+<a href="https://tryhackme.com/room/owasptop102021">OWASP TOP 10-2021 - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/OWASP%20TOP%2010%20-%202021">Answers</a>
 
 
 
