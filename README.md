@@ -21,7 +21,7 @@ Try Hack Me Rooms Completed By Me With Answers:-
 <a href="https://tryhackme.com/room/bypassinguac">Bypassing UAC - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Bypassing%20UAC">Answers</a>
 
 
-5} <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/3f520838881aee0c6a245ed2d35bb9dc.png" alt="THM" width="40" height="40"> 
+5} <img src="https://owasp.org/Top10/assets/OWASP_Logo_Transp.png" alt="THM" width="40" height="40"> 
 <a href="https://tryhackme.com/room/winadbasics">Active Directory Basics - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Active%20Directory%20Basics">Answers</a>
 
 
