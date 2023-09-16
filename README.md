@@ -1,6 +1,6 @@
 # TryHackMe-Rooms
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="TryHackMe">
+<img src="https://tryhackme-badges.s3.amazonaws.com/Yash22222.png" alt="THM">
 
 
 
