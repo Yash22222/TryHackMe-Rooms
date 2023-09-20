@@ -29,7 +29,7 @@ Try Hack Me Rooms Completed By Me With Answers:-
 <a href="https://tryhackme.com/room/solar">Solar, Exploiting log4j - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/Solar%2C%20Exploiting%20log4j">Answers</a>
 
 
-7} <img src="https://static.shodan.io/shodan-ds/img/logo.png" alt="THM" width="40" height="40"> 
+7} <img src="https://owasp.org/assets/images/logo.png" alt="THM" width="40" height="40"> 
 <a href="https://tryhackme.com/room/owasptop102021">OWASP TOP 10-2021 - </a> <a href="https://github.com/Yash22222/TryHackMe-Rooms/blob/main/OWASP%20TOP%2010%20-%202021">Answers</a>
 
 
