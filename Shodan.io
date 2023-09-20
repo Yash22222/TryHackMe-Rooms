@@ -1,17 +1,17 @@
 #  Shodan.io
-#  Learn about Shodan.io and how to use it for devices enumeration - is your coffee machine publicly accessible?
+#  Learn about Shodan.io and how to use it for device enumeration - is your coffee machine publicly accessible?
 
-1] Task 1  Introduction
-Go to Shodan.io
+1] Task 1 - Introduction
+[1] Go to Shodan.io
 
 -> No answer needed
 
-2] Task 2  Filters
+2] Task 2 - Filters
 How do we find Eternal Blue exploits on Shodan?
 
 -> vuln:ms17-01
 
-3] Task 3  Google & Filtering
+3] Task 3 - Google & Filtering
 [1] What is the top operating system for MYSQL servers in Google's ASN?    
 
 -> 5.6.40-84.0-log
@@ -36,22 +36,31 @@ How do we find Eternal Blue exploits on Shodan?
 
 -> Nay
 
-4] Task 4  Shodan Monitor
+4] Task 4 - Shodan Monitor
 [1] What URL takes you to Shodan Monitor?
 
 -> https://monitor.shodan.io/dashboard
 
-5] Task 5  Shodan Dorking
+5] Task 5 - Shodan Dorking
 [1] What dork lets us find PCs infected by Ransomware?
 
 -> has_screenshot: true encrypted attention
 
-6] Task 6  Shodan Extension
+6] Task 6 - Shodan Extension
 [1] This will be nice for bug bounties!
 
 -> No answer needed
 
-7] Task 7  Exploring the API & Conclusion
+7] Task 7 - Exploring the API & Conclusion
 [1] Read the blog post above!
 
-No answer needed
+-> No answer needed
+
+BLOG POST LINK:- https://skerritt.blog/shodan/
+
+Room created by https://twitter.com/bee_sec_san based on this blog post.
+
+
+
+
+
